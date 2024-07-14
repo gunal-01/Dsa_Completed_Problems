@@ -9,4 +9,4 @@ var isPalindrome = function(x) {
     } else {
         return false;
     }
-};
+};  
