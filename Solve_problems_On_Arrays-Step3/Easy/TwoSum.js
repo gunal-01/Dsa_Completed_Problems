@@ -14,3 +14,6 @@ var twoSum = function(nums, target) {
     }
     return [];
 };
+
+
+//solvedInLeetcode
