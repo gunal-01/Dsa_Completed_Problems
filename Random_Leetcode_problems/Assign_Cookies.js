@@ -20,4 +20,4 @@ var findContentChildren = function(g, s) {
     return children;
 };
 
-//two pointer practice problem
+//two pointer practice problem on leetcode.
