@@ -66,3 +66,22 @@ it’s computing the required complement for each element and checking if that c
 This approach ensures that if nums[i] + nums[j] == target, we can find the indices i and j.
 
 */
+
+
+// Approach 3
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        int n = nums.size();
+        unordered_map<int, int> map;
+        for(int i = 0; i < n; i++) {
+            if(map.count(target - nums[i])) { // Here we're not storing the complement, instead we're fetching the complement using {map.count}
+                return {map[target - nums[i]], i}; // and the if condition differs from the approach 2
+            } else {
+                map[nums[i]] = i;
+            }
+        }
+        return {};
+    }
+};
