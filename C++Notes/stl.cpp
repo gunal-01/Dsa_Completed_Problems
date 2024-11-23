@@ -6,11 +6,14 @@ using namespace std;
 
 //before getting into STL, you need to understand that c++ STL is divided into four parts:
 /*
-    * Algorithms
-    * Containers
-    * Functions
-    * Iterators
+    * Algorithms - sorting, searching, counting, modifying, partitioning, heap, minimum/maximum, permutations, set operations and other utilities like accumulate, adjacent_diff, inner_prod, iota, reduce.
+    * Containers - sequence containers(vector, deque, list, array, forward_list), Associative Containers(set, multiset, map, multimap), 
+                   Unordered Associative Containers(unordered_set, unordered_multiset, unordered_map, unordered_multimap), 
+                   Container Adapters(stack, queue, priority_queue)
+    * Functions -  Function Objects, Comparison Objects, Logical Operators, Functional Utilities.
+    * Iterators -  Input Iterators, Output Iterators, Forward Iterators, Bidirectional Iterators, Random Access Iterators. Additionally, Iterator Adapters, Utility Functions.
  */
+
 
 /*--------------------------------------------------------PAIRS--------------------------------------------------------------------------------------------*/
 // Pairs
