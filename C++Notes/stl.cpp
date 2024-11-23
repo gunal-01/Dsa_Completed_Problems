@@ -2,6 +2,17 @@
 
 using namespace std;
 
+
+
+//before getting into STL, you need to understand that c++ STL is divided into four parts:
+/*
+    * Algorithms
+    * Containers
+    * Functions
+    * Iterators
+ */
+
+/*--------------------------------------------------------PAIRS--------------------------------------------------------------------------------------------*/
 // Pairs
 void explainPair() {
     
@@ -22,3 +33,5 @@ void explainPair() {
 int main() {
     explainPair();
 }
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
